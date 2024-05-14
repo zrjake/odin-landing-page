@@ -108,3 +108,23 @@ a {
     border: 3px solid #3882f6;
     border-radius: 10px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+}
+.quote .section-contents {
+    margin-top: 32px;
+    flex-direction: column;
+    width: 800px;
+}
+.quote .quote {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote .attrib {
+    align-self: flex-end;
+    font-weight: 800;
+}
